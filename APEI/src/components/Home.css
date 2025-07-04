@@ -1,0 +1,23 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #007bff; /* 🔵 BLUE background */
+  z-index: -1;
+}
+
+.home-content {
+  padding: 20px;
+  color: white; /* makes text visible on blue */
+  position: relative;
+  z-index: 1;
+}
